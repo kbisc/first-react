@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 //import img from "./image/logo.png"
 //import upc from "./image/upcoming.png"
@@ -8,7 +8,7 @@ return(
 <>
 
 <div class="logo">
-        <img class="lg" src="./image/logo.png"/>
+        <img class="lg" src="./image/logo.png" alt=""/>
     </div>
     
     <h2>UPCOMING TOUR</h2>
@@ -16,7 +16,7 @@ return(
         
     <div class="middle">
         
-        <img class="photo" src="./image/upcoming.png"/>
+        <img class="photo" src="./image/upcoming.png" alt=""/>
             
     <div class="contain">
         <h3>NEPAL MUSIC FESTIVAL</h3>

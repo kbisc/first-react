@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 
@@ -23,9 +23,9 @@ import { Link } from "react-router-dom";
                 <li><Link className="home" to="/">HOME</Link></li>
                 <li><Link className="albums" to="/Album">ALBUMS</Link></li>
                 <li><Link className="gigs" to="/Upcoming">GIGS</Link></li>
-                <li><a className="playlist" href="#">PLAYLIST</a></li>
+                <li><Link className="playlist" to="/playlist">PLAYLIST</Link></li>
                 <li><img className="line" src="./image/Line 1.png" alt=""/></li>
-                <li><a className="merch" href="#">MERCH</a></li>
+                <li><Link className="merch" to="/merch" >MERCH</Link></li>
             </ul>
             <div className="main">
             <img className="image1" src='./image/bimg.png' alt=""/>
@@ -34,7 +34,7 @@ import { Link } from "react-router-dom";
                 <div className="container">
                     <p>ROLL THE ROCKING MUSIC</p>
                     <h1>MONKEY TEMPLE</h1>
-                    <a className="enter" href="#">ENTER</a>
+                    <Link className="enter" to="/enter">ENTER</Link>
                     
                 </div>
             
